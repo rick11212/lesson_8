@@ -1,0 +1,273 @@
+@import "nullstyle.css";
+
+body {
+	width: 100%;
+	background: radial-gradient(circle, rgba(0, 0, 0, 0.3617822128851541) 0%, rgba(0, 0, 0, 0.8911939775910365) 100%);
+}
+.logo {
+	width: 400px;
+	margin: 0px 0px 0px 200px;
+}
+.wrapper {
+	color: rgb(173, 173, 166);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: black;
+}
+
+.main {
+	max-width: 810px;
+	margin: 0px auto;
+}
+.guitars h2 {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+.guitars-electro-items-link:focus {
+	display: inline-block;
+	box-shadow: inset 0px 0px 20px 10px #000;
+	border-radius: 20px;
+}
+.guitars-electro-link:focus,
+.guitars-akust-link:focus {
+	display: inline-block;
+	box-shadow: inset 0px 0px 20px 10px #000;
+	border-radius: 20px;
+}
+.guitars-electro,
+.guitars-akust {
+	display: inline-block;
+	margin: 0px 0px 30px 0px;
+	color: rgba(0, 0, 0, 0.349);
+}
+.guitars::before {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+	border: 1px solid rgba(0, 0, 0, 0.349);
+	margin: 0px 0px 50px 0px;
+}
+
+.guitars-akust {
+	display: inline-block;
+	width: 400px;
+	height: 450px;
+	background: url(../img/akust.png) 100px 40px / 200px no-repeat;
+}
+.guitars-akust:hover {
+	display: inline-block;
+	width: 400px;
+	height: 450px;
+	background: url(../img/akust1.png) 100px 40px / 200px no-repeat;
+}
+.guitars-akust:active {
+	display: inline-block;
+	width: 400px;
+	height: 450px;
+	background: url(../img/akust1.png) 100px 40px / 200px no-repeat;
+	color: rgb(174, 178, 182);
+}
+.guitars-electro {
+	display: inline-block;
+	width: 400px;
+	height: 450px;
+	background: url(../img/electro.png) 100px 40px / 200px no-repeat;
+}
+.guitars-electro:hover {
+	display: inline-block;
+	width: 400px;
+	height: 450px;
+	background: url(../img/electro1.png) 100px 40px / 200px no-repeat;
+}
+.guitars-electro:active {
+	display: inline-block;
+	width: 400px;
+	height: 450px;
+	background: url(../img/electro1.png) 100px 40px / 200px no-repeat;
+	color: rgb(174, 178, 182);
+}
+.guitars-electro-items {
+	display: none;
+	font-size: 0;
+	width: 810px;
+	padding: 0px 0px 0px 110px;
+}
+.guitars-electro-items:target {
+	display: inline-block;
+}
+.guitars-electro-items-text {
+	font-size: 20px;
+	text-align: center;
+	margin: 0px 0px 20px -100px;
+}
+.guitars-electro-items-img {
+	display: inline-block;
+	width: 150px;
+	height: 300px;
+	margin: 0px 0px 20px 0px;
+}
+.guitars-electro-items-img:hover {
+	width: 220px;
+	height: 400px;
+	box-shadow: inset 0px 0px 20px 10px #000;
+	border-radius: 20px;
+}
+.guitars-electro-items-img:active {
+	box-shadow: inset 0px 0px 20px 10px #000, 0px 0px 20px 10px #000;
+	border-radius: 20px;
+}
+.button {
+	display: block;
+	width: 150px;
+	min-height: 50px;
+	background: rgb(51, 41, 41);
+	border-radius: 10px;
+	text-align: center;
+	color: aliceblue;
+	font-size: 20px;
+	margin: 0px 0px 10px 20px;
+}
+.button:focus {
+	box-shadow: 5px 5px 5px white;
+}
+.button:hover {
+	box-shadow: 5px 5px 5px white;
+}
+.button:active {
+	box-shadow: 5px 5px 5px white, inset 5px 5px 20px white;
+}
+.button-akust {
+	padding: 5px 0px 0px 0px;
+}
+.button-hidden {
+	padding: 15px 0px 0px 0px;
+}
+.button-next {
+	padding: 15px 0px 0px 0px;
+}
+
+.guitars-akust-items {
+	border: 1px solid #000;
+	border-radius: 20px;
+	display: inline-block;
+	height: 450px;
+	padding: 50px 20px 0px 200px;
+	display: none;
+	margin: 0px 0px 100px 0px;
+	box-shadow: 0px 0px 0px 10px #000;
+}
+.guitars-akust-items-text {
+	margin: 0px 0px 60px 0px;
+}
+.guitars-akust-items-text h4 {
+	font-size: 20px;
+	font-style: italic;
+	padding: 0px 0px 10px 0px;
+}
+
+/*
+
+.tabs {
+	display: none;
+}
+.tab-1-link {
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	background: grey;
+	text-align: center;
+	padding: 15px 0px 0px 0px;
+	color: rgba(0, 0, 0, 0.651);
+	font-size: 15px;
+	border-radius: 20px;
+}
+.tab-1-link:hover {
+	color: rgba(255, 255, 255, 0.774);
+	box-shadow: inset 0px 0px 20px 10px #000;
+	border-radius: 20px;
+}
+.tab:active {
+	color: rgba(255, 255, 255, 0.774);
+	box-shadow: inset 0px 0px 20px 10px #000, 0px 0px 20px 10px #000;
+	border-radius: 20px;
+}
+
+.tabs:target {
+	display: inline-block;
+}
+.tabs a:last-child {
+	display: inline-block;
+	margin: 20px 0 0 0;
+}
+
+.tab-1-link:focus {
+	display: inline-block;
+	color: rgba(255, 255, 255, 0.774);
+	box-shadow: inset 0px 0px 20px 10px #000;
+	border-radius: 20px;
+} 
+
+*/
+
+.guitars-akust-items-1 {
+	background: url(../img/Songwriter.png) 0 0 / 215px no-repeat;
+}
+.guitars-akust-items-2 {
+	background: url(../img/j45.png) 0 0 / 215px no-repeat;
+}
+.guitars-akust-items-3 {
+	background: url(../img/SongwriterES.png) 0 0 / 215px no-repeat;
+}
+.guitars-akust-items-4 {
+	background: url(../img/j185.png) 0 0 / 215px no-repeat;
+}
+.guitars-akust-items-5 {
+	background: url(../img/j34.png) 0 0 / 215px no-repeat;
+}
+.guitars-akust-items-6 {
+	background: url(../img/jc.png) 0 0 / 215px no-repeat;
+}
+.guitars-akust-items-7 {
+	background: url(../img/ho.png) 0 0 / 215px no-repeat;
+}
+.guitars-akust-items-8 {
+	background: url(../img/pw.png) 0 0 / 215px no-repeat;
+}
+.guitars-akust-items-9 {
+	background: url(../img/wc.png) 0 0 / 215px no-repeat;
+}
+.guitars-akust-items-10 {
+	background: url(../img/tp.png) 0 0 / 200px no-repeat;
+}
+
+.guitars-akust-items-1:target {
+	display: inline-block;
+}
+.guitars-akust-items-2:target {
+	display: inline-block;
+}
+.guitars-akust-items-3:target {
+	display: inline-block;
+}
+.guitars-akust-items-4:target {
+	display: inline-block;
+}
+.guitars-akust-items-5:target {
+	display: inline-block;
+}
+.guitars-akust-items-6:target {
+	display: inline-block;
+}
+.guitars-akust-items-7:target {
+	display: inline-block;
+}
+.guitars-akust-items-8:target {
+	display: inline-block;
+}
+.guitars-akust-items-9:target {
+	display: inline-block;
+}
+.guitars-akust-items-10:target {
+	display: inline-block;
+}
