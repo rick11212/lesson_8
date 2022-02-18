@@ -1,17 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Taviraj:regular&display=swap");
 @import "nullstyle.css";
 
-body {
-	width: 100%;
-	background: radial-gradient(circle, rgba(0, 0, 0, 0.3617822128851541) 0%, rgba(0, 0, 0, 0.8911939775910365) 100%);
-}
 .logo {
-	width: 400px;
+	width: 350px;
 	margin: 0px 0px 0px 200px;
 }
 .wrapper {
+	width: 100%;
+	background: radial-gradient(circle, rgba(0, 0, 0, 0.3617822128851541) 0%, rgba(0, 0, 0, 0.8911939775910365) 100%);
 	color: rgb(173, 173, 166);
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	color: black;
+}
+.header {
+	max-width: 810px;
+	margin: 0px auto;
+	padding: 23px 0px 0px 350px;
+}
+.maket-link {
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.349);
+	font-size: 30px;
+	font-weight: 700;
 }
 
 .main {
@@ -270,4 +281,86 @@ body {
 }
 .guitars-akust-items-10:target {
 	display: inline-block;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+.wrapper-2 {
+	max-width: 1250px;
+	margin: 180px auto;
+	font-family: "Lato";
+}
+.main-2 {
+	width: 400px;
+	margin: 0px 0px 0px 820px;
+}
+.subtitle {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1e212c;
+	margin: 0px 0px 8px 0px;
+}
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+	margin: 0px 0px 40px 0px;
+}
+.list {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.list li {
+	padding: 0px 0px 0px 32px;
+	margin: 0px 0px 12px 0px;
+}
+.list li {
+}
+.list li:last-child {
+	margin: 0px 0px 48px 0px;
+}
+.list li::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../img/icon/Vector.svg") 0 0 no-repeat;
+	margin: 0px 16px -2px -32px;
+}
+.createx-button {
+	width: 161px;
+	height: 44px;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	margin: 0px 0px 26px 0px;
+}
+.createx-button-link {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 44px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	padding: 0px 0px 0px 32px;
+}
+.marple {
+	font-family: "Taviraj";
+	font-size: 36px;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	color: #333333;
+	margin: 0px 0px 50px 0px;
+}
+.marple::after {
+	content: "";
+	display: block;
+	width: 65px;
+	height: 0px;
+	margin: 8px 0px 0px 0px;
+	border: 1px solid #333333;
 }
